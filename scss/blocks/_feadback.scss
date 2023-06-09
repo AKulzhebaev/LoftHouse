@@ -1,0 +1,27 @@
+.feadback {
+   margin-bottom: 180px;
+
+   @include mediaTablet{
+     margin-bottom: 90px;
+   }
+}
+
+.feadback__title {
+   margin-bottom: 38px;
+
+   @include mediaTablet{
+      margin-bottom: 19px;
+   }
+}
+
+.feadback__form {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+   align-items: center;
+
+   @include mediaTablet{
+      grid-template-columns: 1fr;
+   }
+}
+
